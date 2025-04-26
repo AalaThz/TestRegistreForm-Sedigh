@@ -1,0 +1,79 @@
+﻿body {
+
+}
+
+body {
+}
+
+/*p {
+    font-weight: bold;
+    font-size: 12pt;
+    color: #ff6a00;
+    font-family: Verdana;
+    background-color: bisque;
+    text-decoration: underline;
+}*/
+
+p.Border {
+    border: 3px solid #3b10ee;
+}
+
+.ErrorClass {
+    color: red;
+}
+/*
+table {
+    border-spacing: 0px;
+}*/
+
+#tblMain {
+    border-spacing: 0px;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tdHeader {
+    height: 100px;
+    background-color: #B0C4DE;
+}
+
+#tdSubHeader {
+    height: 24px;
+    background-color: #6495ED;
+}
+
+#tdMenu {
+    width: 150px;
+    background-color: #4682B4;
+}
+
+#tdSubFooter {
+    height: 24px;
+    background-color: #6495ED;
+}
+
+#tdFooter {
+    height: 100px;
+    background-color: #B0C4DE;
+}
+
+#MenuText {
+    color: aliceblue;
+    font-size: large;
+    margin-left: 10px;
+}
+
+#ProductText {
+    color: aliceblue;
+    font-size: large;
+    margin-left: 10px;
+    text-decoration:none;
+}
+.Validator {
+    color: #FF0000;
+}
+
+.Validator{
+    color : red;
+}

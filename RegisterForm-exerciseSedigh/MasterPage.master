@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+    <%--<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+
+        <table id="tblMain" border="1">
+            <tr>
+                <td id="tdHeader" colspan="2"></td>
+            </tr>
+            <tr>
+                <td id="tdSubHeader" colspan="2"></td>
+            </tr>
+            <tr>
+                <td class="MenuText" id="tdMenu">
+                    <p id="MenuText">Menu</p>
+                    <a id="ProductText" href="Products.aspx">Products</a>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td id="tdMain">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td id="tdSubFooter" colspan="2"></td>
+            </tr>
+            <tr>
+                <td id="tdFooter" colspan="2"></td>
+            </tr>
+        </table>
+
+
+    </form>
+</body>
+</html>
